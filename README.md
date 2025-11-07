@@ -36,3 +36,4 @@ Head over to our [blog](https://blog.snowleopard.ai/) to learn more!
 Here are some public datasets you can use to get started:
 
 - **Superheroes.db** <sup>[(source)](https://github.com/codecrafters-io/sample-sqlite-databases) [(download)](https://github.com/SnowLeopard-AI/playground_datasets/raw/refs/heads/main/superheroes.db)</sup> - A small dataset about Superheroes, their powers, and appearances.
+- **SFScores.db** <sup>[(download)](https://github.com/SnowLeopard-AI/playground_datasets/raw/refs/heads/main/sfscores.sqlite)</sup> - Restaurant inspection records for San Fransisco.

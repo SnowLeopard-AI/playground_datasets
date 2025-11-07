@@ -35,5 +35,5 @@ Head over to our [blog](https://blog.snowleopard.ai/) to learn more!
 
 Here are some public datasets you can use to get started:
 
-- **Superheroes.db** <sup>[(source)](https://github.com/codecrafters-io/sample-sqlite-databases) [(download)](https://github.com/SnowLeopard-AI/playground_datasets/raw/refs/heads/main/superheroes.db)</sup> - A small dataset about Superheroes, their powers, and appearances.
-- **SFScores.db** <sup>[(download)](https://github.com/SnowLeopard-AI/playground_datasets/raw/refs/heads/main/sfscores.sqlite)</sup> - Restaurant inspection records for San Fransisco.
+- **Superheroes.db** <sup>[(source)](https://github.com/codecrafters-io/sample-sqlite-databases) [(download)](https://github.com/SnowLeopard-AI/playground_datasets/raw/refs/heads/main/superheroes.db)</sup> - Contains 6,895 comic book characters with details about their appearance, eye/hair color, and first appearance dates.
+- **SFScores.sqlite** <sup>[(download)](https://github.com/SnowLeopard-AI/playground_datasets/raw/refs/heads/main/sfscores.sqlite)</sup> - San Francisco restaurant health inspection data with 7,634 businesses, 27,343 inspections, and 40,735 violation records.

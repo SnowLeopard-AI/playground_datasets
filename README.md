@@ -35,4 +35,4 @@ Here are some public datasets you can use to get started:
 Newer versions of this dataset can be found [here](https://data.sfgov.org/browseq=Health+Inspection+Scores&sortBy=relevance&pageSize=20&page=1).
   - Sample Questions:
       - `What tables are in this data set and what kind of information do they contain?`
-      - `	how many violations occurred in 2014?`
+      - `How many violations occurred in 2014?`

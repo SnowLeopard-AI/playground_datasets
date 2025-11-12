@@ -17,7 +17,7 @@ Here are some public SQLite datasets you can use to get started:
 
       
 - **SFScores.sqlite** <sup>[(source)](http://2016.padjo.org/tutorials/sqlite-data-starterpacks/#toc-san-francisco-restaurant-health-inspections) [(download)](https://github.com/SnowLeopard-AI/playground_datasets/raw/refs/heads/main/sfscores.sqlite)</sup> - San Francisco restaurant health inspection data from 2013 - 2015 with 7,634 businesses, 27,343 inspections, and 40,735 violation records. 
-Newer versions of this dataset can be found [here](https://data.sfgov.org/browseq=Health+Inspection+Scores&sortBy=relevance&pageSize=20&page=1).
+Newer versions of this dataset can be found [here](https://data.sfgov.org/browse?q=Health+Inspection+Scores&sortBy=relevance&pageSize=20&page=1).
   - Sample Questions:
       - `What tables are in this data set and what kind of information do they contain?`
       - `How many violations occurred in 2014?`

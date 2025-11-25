@@ -40,6 +40,6 @@ Newer versions of this dataset can be found [here](https://data.sfgov.org/browse
 
 ## About Snow Leopard
 
-[Snow Leopard](https://www.snowleopard.ai/) is an AI-powered data retrieval platform that helps you build business-critical AI Agents using your business data with real-time data retrieval from structured data sources (SQL databases, data warehouses, etc.) on-demand. No setup, no ETL, and no iteration for weeks/months on contexxt engineering. **Zero to ad-hoc data retrieval in minutes!**
+[Snow Leopard](https://www.snowleopard.ai/) is an AI-powered data retrieval platform that helps you build business-critical AI Agents using your business data with real-time data retrieval from structured data sources (SQL databases, data warehouses, etc.) on-demand. No setup, no ETL, and no iteration for weeks/months on context engineering. **Zero to ad-hoc data retrieval in minutes!**
 
 Learn more about the playground [**here**](https://blog.snowleopard.ai/p/announcing-snow-leopards-self-service).

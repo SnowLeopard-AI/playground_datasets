@@ -1,12 +1,10 @@
-[![Discord](https://img.shields.io/discord/1379929746875617413?logo=discord&logoColor=white)](https://discord.gg/4uE6uFGyP7)
-
 # IMDb Dataset
 
 This dataset is from the Internet Movie Database ([IMDb](https://www.imdb.com/)), one of the world's most popular and authoritative sources for movie, TV, and celebrity content, and contains comprehensive movie and TV-show information.
 
 The raw data, and more information about the dataset, can be found at [developer.imdb.com/non-commercial-datasets/](https://developer.imdb.com/non-commercial-datasets/).
 
-This data is served through a Snow-Leopard-managed PosgreSQL database. You can see the first 100 rows of each table of the dataset in [data_tops](https://github.com/SnowLeopard-AI/discord_datasets/tree/main/imdb/data_tops). 
+This data is served through a Snow-Leopard-managed PosgreSQL database. You can see the first 100 rows of each table of the dataset in [data_tops](/imdb/data_tops). 
 
 
 ## Dataset Overview
@@ -16,14 +14,7 @@ The IMDb dataset includes information about:
 - **Cast and Crew**: Actors, directors, writers, and other production personnel
 - **Ratings and Reviews**: User ratings, vote counts, and review data
 
-See [data_tops](https://github.com/SnowLeopard-AI/discord_datasets/tree/main/imdb/data_tops) for more details.
-
-
-## Getting Started
-
-1. Join [Snow Leopard's Discord server](https://discord.gg/4uE6uFGyP7)
-2. Go to the `imdb` channel to ask _**@snowy**_ about the imdb datasets
-3. Ask your tv/movie-related questions!
+See [data_tops](/imdb/data_tops) for more details.
 
 🤔 Not sure what to ask? Here are a few sample questions.
 

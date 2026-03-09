@@ -1,14 +1,12 @@
-[![Discord](https://img.shields.io/discord/1379929746875617413?logo=discord&logoColor=white)](https://discord.gg/4uE6uFGyP7)
-
 # Northwind Dataset Tops
 
-This directory contains 100 rows of each table in the [Northwind](https://github.com/pthom/northwind_psql) dataset to give users a sense of the schema and data in the dataset, so they can _chat with the data more effectively_ in the [Snow Leopard Discord Chatbot](https://discord.gg/4uE6uFGyP7).
+This directory contains 100 rows of each table in the [Northwind](https://github.com/pthom/northwind_psql) dataset to give users a sense of the schema and data in the dataset, so they can _chat with the data more effectively_ in the [Snow Leopard playground](https://try.snowleopard.ai).
 
-More information about the dataset can be found in the [main Northwind README](https://github.com/SnowLeopard-AI/discord_datasets/tree/main/northwind).
+More information about the dataset can be found in the [main Northwind README](/northwind).
 
 ## Northwind Dataset Schemas
 
-### 📦  [categories](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/categories.tsv)
+### 📦  [categories](/northwind/data_tops/categories.tsv)
 
 - information about product categories, including their names, descriptions, and associated pictures.
 
@@ -20,7 +18,7 @@ More information about the dataset can be found in the [main Northwind README](h
 
 - NOTE: Snow Leopard has modified this table from the publicly available version to omit the `picture` binary blob column.
 
-### 🤝 [customer_customer_demo](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/customer_customer_demo.tsv)
+### 🤝 [customer_customer_demo](/northwind/data_tops/customer_customer_demo.tsv)
 
 - links customers to their demographics (many-to-many relationship).
 
@@ -29,7 +27,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | customer_id      | VARCHAR(5)   | Customer ID. Foreign Key referencing `customers(customer_id)`. |
 | customer_type_id | VARCHAR(5)   | Customer type ID. FK to `customer_demographics(customer_type_id)`. |
 
-### 👥  [customer_demographics](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/customer_demographics.tsv)
+### 👥  [customer_demographics](/northwind/data_tops/customer_demographics.tsv)
 
 - demographic information about customer types.
 
@@ -38,7 +36,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | customer_type_id | VARCHAR(5) | Unique identifier for each customer type. Primary Key. |
 | customer_desc    | TEXT       | Description of the customer type. Example: 'Retail', 'Wholesale'. |
 
-### 🧾 [customers](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/customers.tsv)
+### 🧾 [customers](/northwind/data_tops/customers.tsv)
 
 - information about customers, including their contact details and addresses.
 
@@ -56,7 +54,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | phone         | VARCHAR(24)  | Primary phone number of the customer.               |
 | fax           | VARCHAR(24)  | Fax number of the customer.                         |
 
-### 🗺️ [employee_territories](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/employee_territories.tsv)
+### 🗺️ [employee_territories](/northwind/data_tops/employee_territories.tsv)
 
 - associates employees with territories (many-to-many relationship).
 
@@ -65,7 +63,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | employee_id  | SMALLINT      | Employee ID. FK to `employees(employee_id)`.                 |
 | territory_id | VARCHAR(20)   | Territory ID. FK to `territories(territory_id)`.            |
 
-### 👩‍💼 [employees](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/employees.tsv)
+### 👩‍💼 [employees](/northwind/data_tops/employees.tsv)
 
 - information about employees, including their personal details, job titles, and reporting hierarchy.
 
@@ -91,7 +89,7 @@ More information about the dataset can be found in the [main Northwind README](h
 
 - NOTE: Snow Leopard has modified this table from the publicly available version to omit the `photo` binary blob column.
 
-### 📦 [order_details](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/order_details.tsv)
+### 📦 [order_details](/northwind/data_tops/order_details.tsv)
 
 - line items within an order, linking products and orders.
 
@@ -103,7 +101,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | quantity    | SMALLINT  | Quantity of the product ordered.                                  |
 | discount    | REAL      | Discount applied to the product in this order line (0 to 1).      |
 
-### 📑 [orders](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/orders.tsv)
+### 📑 [orders](/northwind/data_tops/orders.tsv)
 
 - customer orders and shipping information.
 
@@ -124,7 +122,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | ship_postal_code | VARCHAR(10)      | Postal code for the shipping address.                              |
 | ship_country     | VARCHAR(15)      | Country where the order is shipped.                                |
 
-### 🛒 [products](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/products.tsv)
+### 🛒 [products](/northwind/data_tops/products.tsv)
 
 - details of items available for sale.
 
@@ -141,7 +139,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | reorder_level     | SMALLINT       | Minimum units before restocking is recommended.                   |
 | discontinued      | INTEGER        | 1 if product is discontinued, 0 otherwise.                         |
 
-### 🌍 [region](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/region.tsv)
+### 🌍 [region](/northwind/data_tops/region.tsv)
 
 - information about geographical regions.
 
@@ -150,7 +148,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | region_id          | SMALLINT    | Unique identifier for each region. Primary Key.               |
 | region_description | VARCHAR(60) | Description of the region. Example: 'Western', 'Southern'. |
 
-### 🚚 [shippers](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/shippers.tsv)
+### 🚚 [shippers](/northwind/data_tops/shippers.tsv)
 
 - information about shipping companies.
 
@@ -160,7 +158,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | company_name | VARCHAR(40) | Name of the shipping company.                        |
 | phone        | VARCHAR(24) | Contact phone number for the shipping company.       |
 
-### 🛠️ [suppliers](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/suppliers.tsv)
+### 🛠️ [suppliers](/northwind/data_tops/suppliers.tsv)
 
 - information about suppliers, including their contact details and addresses.
 
@@ -179,7 +177,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | fax           | VARCHAR(24)  | Fax number of the supplier.                            |
 | homepage      | TEXT         | URL of the supplier's homepage.                        |
 
-### 🗺️ [territories](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/territories.tsv)
+### 🗺️ [territories](/northwind/data_tops/territories.tsv)
 
 - geographical sales areas tied to a region.
 
@@ -189,7 +187,7 @@ More information about the dataset can be found in the [main Northwind README](h
 | territory_description  | VARCHAR(60)    | Description of the territory (e.g., "Boston", "Findlay").       |
 | region_id              | SMALLINT       | Region this territory belongs to. FK to `region(region_id)`.       |
 
-### 🗺️ [us_states](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/northwind/data_tops/us_states.tsv)
+### 🗺️ [us_states](/northwind/data_tops/us_states.tsv)
 
 - information about US states, including their names, abbreviations, and regions.
 

@@ -1,14 +1,12 @@
-[![Discord](https://img.shields.io/discord/1379929746875617413?logo=discord&logoColor=white)](https://discord.gg/4uE6uFGyP7)
-
 # IMDb Dataset Tops
 
-This directory contains 100 rows of each table in the [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) to give users a sense of the schema and data in the dataset, so they can _chat with the data more effectively_ in the [Snow Leopard Discord Chatbot](https://discord.gg/4uE6uFGyP7).
+This directory contains 100 rows of each table in the [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) to give users a sense of the schema and data in the dataset, so they can _chat with the data more effectively_ in the [Snow Leopard playground](https://try.snowleopard.ai).
 
-More information about the dataset can be found in the [main IMDb README](https://github.com/SnowLeopard-AI/discord_datasets/tree/main/imdb).
+More information about the dataset can be found in the [main IMDb README](/imdb).
 
 ## IMDb Dataset Schemas
 
-### [title.akas](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/imdb/data_tops/title.akas.tsv)
+### [title.akas](/imdb/data_tops/title.akas.tsv)
 | Field | Type | Description |
 |-------|------|-------------|
 | titleId | string | A tconst, an alphanumeric unique identifier of the title |
@@ -20,7 +18,7 @@ More information about the dataset can be found in the [main IMDb README](https:
 | attributes | array | Additional terms to describe this alternative title, not enumerated |
 | isOriginalTitle | boolean | 0: not original title; 1: original title |
 
-### [title.basics](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/imdb/data_tops/title.basics.tsv)
+### [title.basics](/imdb/data_tops/title.basics.tsv)
 | Field | Type | Description |
 |-------|------|-------------|
 | tconst | string | Alphanumeric unique identifier of the title |
@@ -33,14 +31,14 @@ More information about the dataset can be found in the [main IMDb README](https:
 | runtimeMinutes | integer | Primary runtime of the title, in minutes |
 | genres | string array | Includes up to three genres associated with the title |
 
-### [title.crew](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/imdb/data_tops/title.crew.tsv)
+### [title.crew](/imdb/data_tops/title.crew.tsv)
 | Field | Type | Description |
 |-------|------|-------------|
 | tconst | string | Alphanumeric unique identifier of the title |
 | directors | array of nconsts | Director(s) of the given title |
 | writers | array of nconsts | Writer(s) of the given title |
 
-### [title.episode](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/imdb/data_tops/title.episode.tsv)
+### [title.episode](/imdb/data_tops/title.episode.tsv)
 | Field | Type | Description |
 |-------|------|-------------|
 | tconst | string | Alphanumeric identifier of episode |
@@ -48,7 +46,7 @@ More information about the dataset can be found in the [main IMDb README](https:
 | seasonNumber | integer | Season number the episode belongs to |
 | episodeNumber | integer | Episode number of the tconst in the TV series |
 
-### [title.principals](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/imdb/data_tops/title.principals.tsv)
+### [title.principals](/imdb/data_tops/title.principals.tsv)
 | Field | Type | Description |
 |-------|------|-------------|
 | tconst | string | Alphanumeric unique identifier of the title |
@@ -58,14 +56,14 @@ More information about the dataset can be found in the [main IMDb README](https:
 | job | string | The specific job title if applicable, else '\N' |
 | characters | string | The name of the character played if applicable, else '\N' |
 
-### [title.ratings](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/imdb/data_tops/title.ratings.tsv)
+### [title.ratings](/imdb/data_tops/title.ratings.tsv)
 | Field | Type | Description |
 |-------|------|-------------|
 | tconst | string | Alphanumeric unique identifier of the title |
 | averageRating | decimal | Weighted average of all the individual user ratings |
 | numVotes | integer | Number of votes the title has received |
 
-### [name.basics](https://github.com/SnowLeopard-AI/discord_datasets/blob/main/imdb/data_tops/name.basics.tsv)
+### [name.basics](/imdb/data_tops/name.basics.tsv)
 | Field | Type | Description |
 |-------|------|-------------|
 | nconst | string | Alphanumeric unique identifier of the name/person |

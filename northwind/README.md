@@ -1,5 +1,3 @@
-[![Discord](https://img.shields.io/discord/1379929746875617413?logo=discord&logoColor=white)](https://discord.gg/4uE6uFGyP7)
-
 The Northwind database models a fictitious company that imports and exports specialty foods from around the world. It contains a variety of tables representing business entities.
 
 📘 Glossary of Key Terms / Tables
@@ -17,14 +15,7 @@ The Northwind database models a fictitious company that imports and exports spec
 | shippers        | Companies used to ship products. Also known as carriers.                   |
 | categories      | Product categories like Beverages, Confections, etc.                       |
 
-See [data_tops](https://github.com/SnowLeopard-AI/discord_datasets/tree/main/northwind/data_tops) for more details.
-
-
-## Getting Started
-
-1. Join [Snow Leopard's Discord server](https://discord.gg/4uE6uFGyP7)
-2. Go to the `northwind` channel to ask _**@snowy**_ about the northwind datasets
-3. Ask questions about northwind business/orders/employee performance
+See [data_tops](/northwind/data_tops) for more details.
 
 🤔 Not sure what to ask? Here are a few sample questions.
 

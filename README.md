@@ -22,6 +22,7 @@ Here are some public SQLite datasets you can use to get started:
       - `What is this dataset about?`
       - `What was the total revenue for 1997?`
       - `List the top 5 best‑selling products by units sold`
+  - See more info about this dataset [here](/northwind)
 
 
 - <a id="sfscores"></a>**SFScores.sqlite** <sup>[(source)](http://2016.padjo.org/tutorials/sqlite-data-starterpacks/#toc-san-francisco-restaurant-health-inspections) [(download)](https://github.com/SnowLeopard-AI/playground_datasets/raw/refs/heads/main/sfscores.sqlite)</sup> - San Francisco restaurant health inspection data from 2013 - 2015 with 7,634 businesses, 27,343 inspections, and 40,735 violation records. 
@@ -44,6 +45,7 @@ Newer versions of this dataset can be found [here](https://data.sfgov.org/browse
       - `How many movies has Tom Hanks acted in?`
       - `What is the highest-rated film directed by Martin Scorsese?`
       - `What are the top 10 movie genres with more than 10,000 films?`
+  - See more info about this dataset [here](/imdb)
 
 
 ## Getting Started
